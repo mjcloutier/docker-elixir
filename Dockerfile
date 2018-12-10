@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:edge
 MAINTAINER mjcloutier <viotech@comcast.net>
 RUN apk --no-cache add -U musl musl-dev make openssh gcc git erlang erlang-crypto erlang-syntax-tools \
     erlang-inets erlang-ssl erlang-public-key erlang-asn1 erlang-sasl erlang-runtime-tools \
